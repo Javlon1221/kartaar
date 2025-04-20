@@ -84,3 +84,74 @@ img{
     background: white;
     border: 1px solid dodgerblue;
 }
+
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.add-btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add-btn {
+    padding: 10px 25px;
+    font-size: 18px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background: #218838;
+}
+
+
+.cards {
+    width: 400px;
+    border: 1px solid red;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.cards .cards_img {
+    width: 270px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    top: -60px;
+    left: 60px;
+}
+
+.cards .cards_txt h2 {
+    padding: 10px 0 15px;
+    font-size: 42px;
+}
+
+.cards .cards_txt p {
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cards .cards_btn {
+    padding: 16px 35px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}

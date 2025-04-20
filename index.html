@@ -9,23 +9,19 @@
 <body>
     <header>
         <div class="container">
-            <div class="cards">
-
-                <div class="img">
-                    <div class="bir"></div>
-                    <div class="ikki"></div>
-                    <div class="ux"></div>
-                    <div class="tor"></div>
+           <div class="carusel">
+                <div class="carusel__img">
+                    <img class="images" src="./img/iPhone_16_white.jpg" alt="">
                 </div>
-
-                <div class="buttons">
-                    <button class="button"></button>
-                    <button class="button"></button>
-                    <button class="button"></button>
-                    <button class="button"></button>
+                <div class="carusel__options">
+                    <div onclick="changeImg('./img/iPhone_16_black.jpg')" class="change"></div>
+                    <div onclick="changeImg('./img/iPhone_16_blue.png')" class="change aluka"></div>
+                    <div onclick="changeImg('./img/iPhone_16_pink.jpg')" class="change aluka2"></div>
+                    <div onclick="changeImg('./img/iPhone_16_white.jpg')" class="change aluka3"></div>
                 </div>
-            </div>
+           </div>
         </div>
     </header>
+    <script src="./app/app.js"></script>
 </body>
 </html>

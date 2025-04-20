@@ -10,10 +10,8 @@
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
-    border: 1px solid red;
-    /* background-color: blueviolet; */
-    min-height: 300vh;
 }
+
 img{
     max-width: 100%;
     max-height: 100%;
@@ -22,9 +20,67 @@ img{
     background-size: cover;
     background-position: center;
 }
-.cards{
-    max-width: 400px;
-    max-height: 600px;
-    border: 1px solid red;
-    overflow: hidden;
+
+.images{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.carusel__img{
+    width: 600px;
+    height: 700px;
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.carusel__img img{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fade {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.carusel__options{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.carusel__options img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: 1px solid dodgerblue;
+}
+
+.change{
+    width: 60px;
+    height: 60px;
+    background: black;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.aluka{
+    background: blue;
+}
+
+.aluka2{
+    background: pink;
+}
+
+.aluka3{
+    background: white;
+    border: 1px solid dodgerblue;
 }
